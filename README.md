@@ -43,6 +43,5 @@ The Smart IoT Drying Rack System works as follows:
 
 ## Demo
 Watch the **live demonstration** of the system:  
-[![Smart IoT Drying Rack System Demo](https://img.youtube.com/vi/<YouTube_Video_ID>/0.jpg)](https://youtu.be/ftpnjOpC7YU<YouTube_Video_ID>)  
-*Click the image above to view the demo.*
+[Smart IoT Drying Rack System Demo](https://youtu.be/ftpnjOpC7YU<YouTube_Video_ID>)  
 
