@@ -2,9 +2,11 @@
 
 The **Smart IoT Drying Rack System** is an automated solution designed to protect clothes from unpredictable weather while promoting energy efficiency and sustainability. The system integrates IoT technology with real-time weather monitoring to retract or extend the drying rack and activate a fan based on rain detection, temperature, and humidity levels. The system is aligned with **UN SDG 9 (Industry, Innovation, and Infrastructure)** and **SDG 11 (Sustainable Cities and Communities)**.
 
+
 ## Team Members
 1. Mior Muhammad Irfan Bin Mior Latfee (158450)
 2. Mohamad Nazmi Bin Hashim (158616)
+
 
 ## Technology Deployed
 - **Microcontroller**: ESP32  
@@ -15,6 +17,7 @@ The **Smart IoT Drying Rack System** is an automated solution designed to protec
 - **Cloud Platform**: V-One IoT Platform  
 - **Programming Languages**: C++ (Arduino)  
 - **Communication Protocol**: MQTT (for cloud integration)  
+
 
 ## Description
 The Smart IoT Drying Rack System works as follows:
@@ -32,6 +35,7 @@ The Smart IoT Drying Rack System works as follows:
 - Real-time monitoring and control via the V-One IoT Cloud Platform.
 - Historical data visualization, including temperature, humidity, and rain trends.
 - Fully automated operation with minimal user intervention.
+
 
 ## Demo
 Watch the **live demonstration** of the system:  
