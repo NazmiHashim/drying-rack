@@ -155,7 +155,7 @@ void loop() {
     else if (button2) // To activate drying mode
     {
       isDrying = true;
-      if (lastServoPosition != 180) {  // Check if the servo is not already at 90
+      if (lastServoPosition != 180) {  // Check if the servo is not already at 180
           Serial.println("No rain detected! Moving servo to open position.");
           moveServoSmooth(180, servoSpeed); 
           lastServoPosition = 180;  // Update the last position
