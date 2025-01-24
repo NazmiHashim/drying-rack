@@ -1,23 +1,25 @@
 /*
   ESP32 Smart Drying Rack System using V-One Cloud
+  By: Nazmi Hashim
+      Mior Irfan
 */
 
 #include "VOneMqttClient.h"
 #include "DHT.h"
 #include <ESP32Servo.h>
 
-int servoSpeed = 20; 
+int servoSpeed = 20; // Speed at which servo will move
 int lastServoPosition = -1;  // Initialize with an invalid position
 bool isFanOn = false; // To check whether the dryer fan is activated
 bool isDrying = false; // To check whether on dry mode
-unsigned long cur = millis();
+unsigned long cur = millis(); // Store the current time in milliseconds when hte program started to run
 
-//define device id
+//Define device id
 const char* DHT11Sensor = "de2c3a76-d230-40f5-a2b2-adff5e6bd9c9";
 const char* RainSensor = "a4c9d411-c5aa-4791-a9e7-dc2c0ff11c10";
 
 
-//Used Pins
+//Used Pins 
 const int btnPin1 = 14;
 const int btnPin2 = 33;
 const int dht11Pin = 21;
@@ -25,17 +27,17 @@ const int rainPin = 35;
 const int servoPin = 16;
 const int relayPin = 32;
 
-//input sensor
+//Input sensor
 #define DHTTYPE DHT11
 DHT dht(dht11Pin, DHTTYPE);
 
 //Create an instance of VOneMqttClient
 VOneMqttClient voneClient;
 
-// Create a Servo object
+//Create a Servo object
 Servo servo;
 
-//last message time
+//Last message time
 unsigned long lastMsgTime = 0;
 
 void setup_wifi() {
