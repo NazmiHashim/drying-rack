@@ -13,8 +13,8 @@ bool isDrying = false; // To check whether on dry mode
 unsigned long cur = millis();
 
 //define device id
-const char* DHT11Sensor = "de2c3a76-d230-40f5-a2b2-adff5e6bd9c9";     //Replace with YOUR deviceID for the DHT11 sensor
-const char* RainSensor = "a4c9d411-c5aa-4791-a9e7-dc2c0ff11c10";      //Replace with YOUR deviceID for the rain sensor
+const char* DHT11Sensor = "de2c3a76-d230-40f5-a2b2-adff5e6bd9c9";
+const char* RainSensor = "a4c9d411-c5aa-4791-a9e7-dc2c0ff11c10";
 
 
 //Used Pins
